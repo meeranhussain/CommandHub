@@ -20,8 +20,8 @@ zcat *fastq.gz | grep -c "^@" > read_count.txt
 ```
 ## How to calculate the average read depth after aligning reads to a reference genome?
 Depth generally refers to the number of times a particular nucleotide in the genome is read during the sequencing process. It reflects the number of reads aligned to a specific position in the genome. Evaluating read depth helps determine if there are a sufficient number of reads aligned over a given base position, which is crucial for our analysis. Whereas coverage means to check if the reads are aligned over the genome by checking the percentage.
-
 This is a common way to evaluate the quality of samples by checking read depth after alignment.
+
 **Step 1: Convert SAM file to BAM file**
 ```bash
 samtools view -bS --threads <number_of_threads> <input_SAM_file> > <output_bam_file>
