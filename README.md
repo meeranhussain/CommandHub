@@ -35,7 +35,9 @@ There are two tools either “samtools depth” or “Mosdepth”
 ```bash
 samtools depth -a <output_sorted_bam> |  awk '{sum+=$3} END { print "Average = ",sum/NR}'
 ```
+
 OR 
+
 Index Sorted BAM file and use mosdepth to calculate average read depth
 ```bash
 samtools index <input_sorted_bam> -@ <number_threads>
