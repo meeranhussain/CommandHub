@@ -1,6 +1,6 @@
 # Sequencing Data Analysis Toolkit
 
-This GitHub repository provides a comprehensive collection of commands and scripts commonly used for analyzing sequencing data.
+This GitHub repository provides a comprehensive collection of commands and scripts commonly used while analyzing sequencing data.
 
 ## How to Calculate Number of Reads?
 
