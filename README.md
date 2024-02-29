@@ -5,9 +5,6 @@ This GitHub repository provides a comprehensive collection of commands and scrip
 3. [How to fetch mapped and unmapped reads from BAM file using samtools?](#question3)
 
 
-
-This GitHub repository provides a comprehensive collection of commands and scripts commonly used while analyzing sequencing data.
-
 ## How to calculate number of reads? <a name="question1"></a>
 
 In a Fastq file, each read is represented by four lines, with each read beginning with the "@" symbol. This command functions by counting the occurrences of "@" at the start of each read.
