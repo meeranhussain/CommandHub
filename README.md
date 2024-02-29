@@ -49,8 +49,7 @@ To fetch mapped reads:
 ```bash
 samtools view -b -F 4 input.bam > output.bam
 ```
-“-F” flag to fetch mapped reads 
-“-b” flag to produce output BAM file
+“-F” flag to fetch mapped reads & “-b” to produce output BAM file
 To fetch unmapped reads:
 ```bash
 samtools view -b -f 4 input.bam > output.bam
