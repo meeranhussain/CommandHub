@@ -1,4 +1,5 @@
 # Sequencing Data Analysis Toolkit
+This GitHub repository provides a comprehensive collection of commands and scripts commonly used while analyzing sequencing data.
 1. [How to calculate number of reads?](#question1)
 2. [How to calculate the average read depth after aligning reads to a reference genome?](#question2)
 3. [How to fetch mapped and unmapped reads from BAM file using samtools?](#question3)
